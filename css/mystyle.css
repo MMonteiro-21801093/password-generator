@@ -1,0 +1,53 @@
+ .bg-1 {
+      background-color:  #2423274b;
+      color: #ffffff;
+      text-align: center;
+      padding-top: 70px;
+     padding-bottom: 70px;
+    /*  margin-top: 55px !important;*/
+  }
+  
+  .bg-2 {
+      background-color: #e9ecef;
+      padding-top: 70px;
+      padding-bottom: 70px;
+    /*  margin-top: 55px !important;*/
+  }
+ 
+ /* Carousel */
+ .carousel-inner img {
+  -webkit-filter: grayscale(90%);
+      filter: grayscale(90%); 
+      width: 100%; 
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Esconde o texto do carousel quando a largura do ecrã for inferior a 600px */
+    }
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* cinzento */
+      color: #ffffff;
+      text-align: center;
+      
+    
+  }
+.btn-outline{
+  margin-left: 5px;
+}
+#contatos{
+      padding-top: 50px;
+      padding-bottom: 70px;
+}
+
+#googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }  
+
